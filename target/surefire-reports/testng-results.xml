@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-03T18:48:59 IST" name="Suite" finished-at="2024-09-03T18:49:20 IST" duration-ms="20951">
+    <groups>
+    </groups>
+    <test started-at="2024-09-03T18:48:59 IST" name="Test" finished-at="2024-09-03T18:49:20 IST" duration-ms="20951">
+      <class name="rahulshetty.TestLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:rahulshetty.TestLogin@72035809]" started-at="2024-09-03T18:48:59 IST" name="setUp" finished-at="2024-09-03T18:49:15 IST" duration-ms="15519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Addtocartfuncationlity(java.util.Map)[pri:0, instance:rahulshetty.TestLogin@72035809]" started-at="2024-09-03T18:49:15 IST" name="Addtocartfuncationlity" data-provider="data" finished-at="2024-09-03T18:49:18 IST" duration-ms="2983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=John, lastName=Doe, password=secret_sauce, postalCode=12345, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtocartfuncationlity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshetty.TestLogin@72035809]" started-at="2024-09-03T18:49:18 IST" name="tearDown" finished-at="2024-09-03T18:49:20 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshetty.TestLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
